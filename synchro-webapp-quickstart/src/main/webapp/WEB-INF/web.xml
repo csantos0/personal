@@ -1,0 +1,19 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+
+	<display-name>synchro-webapp-quickstart</display-name>
+
+	<servlet>
+		<display-name>synchro-servlet-start</display-name>
+		<servlet-name>synchro-servlet-start</servlet-name>
+		<servlet-class>br.com.synchro.servlet.StartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>synchro-servlet-start</servlet-name>
+		<url-pattern>/synchro-servlet-start</url-pattern>
+	</servlet-mapping>
+
+</web-app>
